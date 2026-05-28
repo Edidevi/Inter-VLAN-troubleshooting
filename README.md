@@ -18,8 +18,8 @@ Troubleshooting scenarios for an enterprise inter VLAN scenario
 
 ## 🎫 Incident Ticket #INC-00902
 **Priority:** `P2 — High` **Reported by:** `Karen W., Finance` **Assigned to:** `Network Support` **Time logged:** `11:04 AM`
-<img width="48%" height="300" align="left" alt="image" src="https://github.com/user-attachments/assets/6a8e1fd8-fe62-49e5-9f4e-656e04b2e36e" />
-<img width="48%" height="300" align="left" alt="image" src="https://github.com/user-attachments/assets/91072571-a053-4278-8a73-0d231f9b5477" />
+<img width="45%" height="300" align="left" alt="image" src="https://github.com/user-attachments/assets/6a8e1fd8-fe62-49e5-9f4e-656e04b2e36e" />
+<img width="45%" height="300" align="left" alt="image" src="https://github.com/user-attachments/assets/91072571-a053-4278-8a73-0d231f9b5477" />
 <br/>
 
 I made a rough note of the key points before troubleshooting, to help me:
