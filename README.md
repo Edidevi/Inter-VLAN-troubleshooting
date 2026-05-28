@@ -31,7 +31,7 @@ Troubleshooting scenarios for an enterprise inter VLAN scenario
 </ol>
 <br>
 
-**<ins>Step 1: `Layer 1`<ins>**
+**<ins>Step 1: Layer 1 <ins>**
     <ul>
       <li>Checked cabling on every connection, to make sure right cables were used </li>
       <li>Noticed **incorrect cabling** between **SW-Finance**, **SW-OPs** and the **D1**.</li>
@@ -42,7 +42,9 @@ Troubleshooting scenarios for an enterprise inter VLAN scenario
       </ul>
       <img width="797" height="120" alt="image" src="https://github.com/user-attachments/assets/47db9b83-8186-4407-b1ba-6286cfdc5590" />
 
- <ul>
+ 
+</ol>
+<br>
       <li>Checked cabling on every connection, to make sure right cables were used </li>
       <li>Noticed **incorrect cabling** between **SW-Finance**, **SW-OPs** and the **D1**.</li>
       <li>Replaced **crossover cable** with a straight through cable. Having incorrect cabling could cause inconssistent pings due to collisions from to pins transmitting at same time. Maybe the network team made a mistake yesterday?</li>
