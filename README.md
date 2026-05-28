@@ -22,4 +22,9 @@ Troubleshooting scenarios for an enterprise inter VLAN scenario
 <img width="300" height="300" align="left" alt="image" src="https://github.com/user-attachments/assets/91072571-a053-4278-8a73-0d231f9b5477" />
 
 <img width="797" height="120" alt="image" src="https://github.com/user-attachments/assets/47db9b83-8186-4407-b1ba-6286cfdc5590" />
+<img width="688" height="363" alt="image" src="https://github.com/user-attachments/assets/ae15cfe5-44db-4487-b251-5b51f0addf49" />
+<img width="598" height="457" alt="image" src="https://github.com/user-attachments/assets/671a3580-beed-48a2-bef4-eac87ecf0f74" />
+
 ![Uploading image.png…]()
+
+
