@@ -34,14 +34,27 @@ Troubleshooting scenarios for an enterprise inter VLAN scenario
 **<ins>Step 1: `Layer 1`<ins>**
     <ul>
       <li>Checked cabling on every connection, to make sure right cables were used </li>
-      <li>Noticed **incorrect cabling** between **SW-Finance**, **SW** and the **Layer 3 switch**.</li>
-      <li>Replaced **crossover cable** with a straight through cable. Having incorrect cabling could cause inconssistent pings due to collisions from to pins transmitting at same time</li>
+      <li>Noticed **incorrect cabling** between **SW-Finance**, **SW-OPs** and the **D1**.</li>
+      <li>Replaced **crossover cable** with a straight through cable. Having incorrect cabling could cause inconssistent pings due to collisions from to pins transmitting at same time. Maybe the network team made a mistake yesterday?</li>
       <li>The next step was the interfaces, to check for possible **down interfaces**. I useed `show ip interface brief` on the two swtiches, as well as the layer 3 switch.
-      <li>I checked the **finance switch** first, on which there were no alarming things. Connected interfaces were up/up as expected </li>                            
-    </ul>
+      <li>I checked the **SW-Finance** first, on which there were no alarming things. Connected interfaces were up/up as expected </li>
+      <li>I then checked **SW-OPs** and i got a native VLAN mismatch message for the trunk between `GigabitEthernet0/1` on **SW-OP** and `FastEthernet0/1` on **D1** <br>
+      </ul>
+      <img width="797" height="120" alt="image" src="https://github.com/user-attachments/assets/47db9b83-8186-4407-b1ba-6286cfdc5590" />
+
+ <ul>
+      <li>Checked cabling on every connection, to make sure right cables were used </li>
+      <li>Noticed **incorrect cabling** between **SW-Finance**, **SW-OPs** and the **D1**.</li>
+      <li>Replaced **crossover cable** with a straight through cable. Having incorrect cabling could cause inconssistent pings due to collisions from to pins transmitting at same time. Maybe the network team made a mistake yesterday?</li>
+      <li>The next step was the interfaces, to check for possible **down interfaces**. I useed `show ip interface brief` on the two swtiches, as well as the layer 3 switch.
+      <li>I checked the **SW-Finance** first, on which there were no alarming things. Connected interfaces were up/up as expected </li>
+      <li>I then checked **SW-OPs** and i got a native VLAN mismatch message for the trunk between `GigabitEthernet0/1` on **SW-OP** and `FastEthernet0/1` on **D1** <br>
+      </ul>
+      <img width="797" height="120" alt="image" src="https://github.com/user-attachments/assets/47db9b83-8186-4407-b1ba-6286cfdc5590" />
 </ol>
 
 
+</ol>
 
 
 <img width="797" height="120" alt="image" src="https://github.com/user-attachments/assets/47db9b83-8186-4407-b1ba-6286cfdc5590" />
